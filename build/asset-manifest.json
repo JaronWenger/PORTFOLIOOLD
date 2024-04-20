@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.6c681200.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.6c681200.js.map": "/static/js/main.6c681200.js.map"
+    "main.css": "/PORTFOLIO/static/css/main.e131da9c.css",
+    "main.js": "/PORTFOLIO/static/js/main.99b6a5d9.js",
+    "static/media/Profile.jpg": "/PORTFOLIO/static/media/Profile.1ce31d7d94faa8a774e8.jpg",
+    "static/media/Profile2.jpg": "/PORTFOLIO/static/media/Profile2.dfdbbd0dcdf1c4019540.jpg",
+    "static/media/TaskList.png": "/PORTFOLIO/static/media/TaskList.2349001433313bbd9980.png",
+    "static/media/NoteTracker.png": "/PORTFOLIO/static/media/NoteTracker.ce7e215a3f95d451c7ce.png",
+    "static/media/Calc.png": "/PORTFOLIO/static/media/Calc.c1b45636e7079cdb5a82.png",
+    "static/media/ToDoList.png": "/PORTFOLIO/static/media/ToDoList.a4f2cdd48922449f5fb5.png",
+    "static/media/oswald-latin-400-normal.woff": "/PORTFOLIO/static/media/oswald-latin-400-normal.fa6c4af7592d0435ccb7.woff",
+    "static/media/oswald-latin-ext-400-normal.woff": "/PORTFOLIO/static/media/oswald-latin-ext-400-normal.3fd17df8e09668addfad.woff",
+    "static/media/oswald-latin-400-normal.woff2": "/PORTFOLIO/static/media/oswald-latin-400-normal.a1415da4d7ad28ef8f9e.woff2",
+    "static/media/oswald-latin-ext-400-normal.woff2": "/PORTFOLIO/static/media/oswald-latin-ext-400-normal.d7108bdca63550fef74b.woff2",
+    "static/media/oswald-cyrillic-ext-400-normal.woff": "/PORTFOLIO/static/media/oswald-cyrillic-ext-400-normal.ab9658b7fdccf021cd02.woff",
+    "static/media/oswald-cyrillic-400-normal.woff": "/PORTFOLIO/static/media/oswald-cyrillic-400-normal.af0096c7acff6802b789.woff",
+    "static/media/oswald-cyrillic-ext-400-normal.woff2": "/PORTFOLIO/static/media/oswald-cyrillic-ext-400-normal.fc2bffcbf389cc4c283b.woff2",
+    "static/media/oswald-cyrillic-400-normal.woff2": "/PORTFOLIO/static/media/oswald-cyrillic-400-normal.30ed48bad009b7cadc37.woff2",
+    "static/media/oswald-vietnamese-400-normal.woff": "/PORTFOLIO/static/media/oswald-vietnamese-400-normal.324e1553f920eead03fe.woff",
+    "static/media/oswald-vietnamese-400-normal.woff2": "/PORTFOLIO/static/media/oswald-vietnamese-400-normal.a3465efd849ea2f438ef.woff2",
+    "index.html": "/PORTFOLIO/index.html",
+    "main.e131da9c.css.map": "/PORTFOLIO/static/css/main.e131da9c.css.map",
+    "main.99b6a5d9.js.map": "/PORTFOLIO/static/js/main.99b6a5d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.6c681200.js"
+    "static/css/main.e131da9c.css",
+    "static/js/main.99b6a5d9.js"
   ]
 }

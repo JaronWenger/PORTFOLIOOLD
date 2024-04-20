@@ -6,6 +6,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
+import myImage4 from './/Profile.jpg'
+import myImage5 from './/Profile2.jpg'
+
 const Contact = () => {
     const contactItems = [
         { icon: <EmailIcon fontSize="large"/>, text: 'jarongwenger@gmail.com' },
@@ -19,10 +22,10 @@ const Contact = () => {
     <div style={{ display: 'flex', alignItems: 'center' }}>
       {/* Picture on the left */}
       <img 
-        src="/ProfilePitt.JPG" 
+        src={myImage5} 
         alt="Contact" 
         style={{ 
-            width: '300px', 
+            width: '400px', 
             marginRight: '20px',
             border: '4px solid white', // Add white border
             boxShadow: '0 0 10px white', // Add initial white shadow
