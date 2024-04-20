@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/PORTFOLIO/static/css/main.e131da9c.css",
-    "main.js": "/PORTFOLIO/static/js/main.2a5c4a96.js",
+    "main.js": "/PORTFOLIO/static/js/main.877efc40.js",
     "static/media/Profile.jpg": "/PORTFOLIO/static/media/Profile.1ce31d7d94faa8a774e8.jpg",
     "static/media/Profile2.jpg": "/PORTFOLIO/static/media/Profile2.dfdbbd0dcdf1c4019540.jpg",
     "static/media/NoteTracker.png": "/PORTFOLIO/static/media/NoteTracker.ce7e215a3f95d451c7ce.png",
     "static/media/Calc.png": "/PORTFOLIO/static/media/Calc.c1b45636e7079cdb5a82.png",
-    "static/media/NewToDo.png": "/PORTFOLIO/static/media/NewToDo.8ee95bfbb1f08ff94814.png",
+    "static/media/NewToDo.png": "/PORTFOLIO/static/media/NewToDo.336fea31c176da0196d9.png",
     "static/media/ToDoList.png": "/PORTFOLIO/static/media/ToDoList.a4f2cdd48922449f5fb5.png",
     "static/media/oswald-latin-400-normal.woff": "/PORTFOLIO/static/media/oswald-latin-400-normal.fa6c4af7592d0435ccb7.woff",
     "static/media/oswald-latin-ext-400-normal.woff": "/PORTFOLIO/static/media/oswald-latin-ext-400-normal.3fd17df8e09668addfad.woff",
@@ -20,10 +20,10 @@
     "static/media/oswald-vietnamese-400-normal.woff2": "/PORTFOLIO/static/media/oswald-vietnamese-400-normal.a3465efd849ea2f438ef.woff2",
     "index.html": "/PORTFOLIO/index.html",
     "main.e131da9c.css.map": "/PORTFOLIO/static/css/main.e131da9c.css.map",
-    "main.2a5c4a96.js.map": "/PORTFOLIO/static/js/main.2a5c4a96.js.map"
+    "main.877efc40.js.map": "/PORTFOLIO/static/js/main.877efc40.js.map"
   },
   "entrypoints": [
     "static/css/main.e131da9c.css",
-    "static/js/main.2a5c4a96.js"
+    "static/js/main.877efc40.js"
   ]
 }
