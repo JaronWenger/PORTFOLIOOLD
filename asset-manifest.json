@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/PORTFOLIO/static/css/main.e131da9c.css",
-    "main.js": "/PORTFOLIO/static/js/main.fe082a36.js",
+    "main.js": "/PORTFOLIO/static/js/main.d63fa2c1.js",
     "static/media/Profile.jpg": "/PORTFOLIO/static/media/Profile.1ce31d7d94faa8a774e8.jpg",
     "static/media/Profile2.jpg": "/PORTFOLIO/static/media/Profile2.dfdbbd0dcdf1c4019540.jpg",
+    "static/media/Weather.png": "/PORTFOLIO/static/media/Weather.034e748742865e5b1d12.png",
     "static/media/NoteTracker.png": "/PORTFOLIO/static/media/NoteTracker.ce7e215a3f95d451c7ce.png",
     "static/media/Calc.png": "/PORTFOLIO/static/media/Calc.c1b45636e7079cdb5a82.png",
     "static/media/NewToDo.png": "/PORTFOLIO/static/media/NewToDo.6423da85cce2ecb6dc32.png",
@@ -20,10 +21,10 @@
     "static/media/oswald-vietnamese-400-normal.woff2": "/PORTFOLIO/static/media/oswald-vietnamese-400-normal.a3465efd849ea2f438ef.woff2",
     "index.html": "/PORTFOLIO/index.html",
     "main.e131da9c.css.map": "/PORTFOLIO/static/css/main.e131da9c.css.map",
-    "main.fe082a36.js.map": "/PORTFOLIO/static/js/main.fe082a36.js.map"
+    "main.d63fa2c1.js.map": "/PORTFOLIO/static/js/main.d63fa2c1.js.map"
   },
   "entrypoints": [
     "static/css/main.e131da9c.css",
-    "static/js/main.fe082a36.js"
+    "static/js/main.d63fa2c1.js"
   ]
 }
