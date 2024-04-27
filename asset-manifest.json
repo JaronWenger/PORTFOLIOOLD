@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/PORTFOLIO/static/css/main.3adc278b.css",
-    "main.js": "/PORTFOLIO/static/js/main.c9ab51f2.js",
+    "main.js": "/PORTFOLIO/static/js/main.12f520b8.js",
     "static/media/Profile.jpg": "/PORTFOLIO/static/media/Profile.1ce31d7d94faa8a774e8.jpg",
     "static/media/Profile2.jpg": "/PORTFOLIO/static/media/Profile2.dfdbbd0dcdf1c4019540.jpg",
     "static/media/RESUME.pdf": "/PORTFOLIO/static/media/RESUME.79385e0e8571b7810b23.pdf",
-    "static/media/Weather.png": "/PORTFOLIO/static/media/Weather.8a0829615bfe532b5aca.png",
-    "static/media/Calc.png": "/PORTFOLIO/static/media/Calc.33fcc14d064135dc761e.png",
-    "static/media/NewToDo.png": "/PORTFOLIO/static/media/NewToDo.c49350a5838bb90425a0.png",
+    "static/media/Weather.png": "/PORTFOLIO/static/media/Weather.28b15e7d5184b863028a.png",
+    "static/media/Calc.png": "/PORTFOLIO/static/media/Calc.8f11c87f8634a34bb163.png",
+    "static/media/NewToDo.png": "/PORTFOLIO/static/media/NewToDo.88393d1d0a12ea4e8ac2.png",
     "static/media/oswald-latin-400-normal.woff": "/PORTFOLIO/static/media/oswald-latin-400-normal.fa6c4af7592d0435ccb7.woff",
     "static/media/oswald-latin-ext-400-normal.woff": "/PORTFOLIO/static/media/oswald-latin-ext-400-normal.3fd17df8e09668addfad.woff",
     "static/media/oswald-latin-400-normal.woff2": "/PORTFOLIO/static/media/oswald-latin-400-normal.a1415da4d7ad28ef8f9e.woff2",
@@ -20,10 +20,10 @@
     "static/media/oswald-vietnamese-400-normal.woff2": "/PORTFOLIO/static/media/oswald-vietnamese-400-normal.a3465efd849ea2f438ef.woff2",
     "index.html": "/PORTFOLIO/index.html",
     "main.3adc278b.css.map": "/PORTFOLIO/static/css/main.3adc278b.css.map",
-    "main.c9ab51f2.js.map": "/PORTFOLIO/static/js/main.c9ab51f2.js.map"
+    "main.12f520b8.js.map": "/PORTFOLIO/static/js/main.12f520b8.js.map"
   },
   "entrypoints": [
     "static/css/main.3adc278b.css",
-    "static/js/main.c9ab51f2.js"
+    "static/js/main.12f520b8.js"
   ]
 }
