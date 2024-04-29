@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PORTFOLIO/static/css/main.10c45ff8.css",
-    "main.js": "/PORTFOLIO/static/js/main.8e3e4610.js",
+    "main.js": "/PORTFOLIO/static/js/main.dbe0e091.js",
     "static/media/Profile.jpg": "/PORTFOLIO/static/media/Profile.1ce31d7d94faa8a774e8.jpg",
     "static/media/Profile2.jpg": "/PORTFOLIO/static/media/Profile2.dfdbbd0dcdf1c4019540.jpg",
     "static/media/Weather.png": "/PORTFOLIO/static/media/Weather.28b15e7d5184b863028a.png",
@@ -19,10 +19,10 @@
     "static/media/oswald-vietnamese-400-normal.woff2": "/PORTFOLIO/static/media/oswald-vietnamese-400-normal.a3465efd849ea2f438ef.woff2",
     "index.html": "/PORTFOLIO/index.html",
     "main.10c45ff8.css.map": "/PORTFOLIO/static/css/main.10c45ff8.css.map",
-    "main.8e3e4610.js.map": "/PORTFOLIO/static/js/main.8e3e4610.js.map"
+    "main.dbe0e091.js.map": "/PORTFOLIO/static/js/main.dbe0e091.js.map"
   },
   "entrypoints": [
     "static/css/main.10c45ff8.css",
-    "static/js/main.8e3e4610.js"
+    "static/js/main.dbe0e091.js"
   ]
 }
