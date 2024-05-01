@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/PORTFOLIO/static/css/main.10c45ff8.css",
-    "main.js": "/PORTFOLIO/static/js/main.1700c339.js",
+    "main.js": "/PORTFOLIO/static/js/main.ff01fed4.js",
     "static/media/StockDraft.png": "/PORTFOLIO/static/media/StockDraft.0e791b9f894795186b3b.png",
     "static/media/Profile2.jpg": "/PORTFOLIO/static/media/Profile2.dfdbbd0dcdf1c4019540.jpg",
+    "static/media/ToDoDraft.png": "/PORTFOLIO/static/media/ToDoDraft.63211b383179ebf91b4d.png",
+    "static/media/ToDoProblem1.png": "/PORTFOLIO/static/media/ToDoProblem1.d8bc337c0f6ee48ef58b.png",
     "static/media/Weather.png": "/PORTFOLIO/static/media/Weather.1e5b720680287b38a697.png",
     "static/media/Calc.png": "/PORTFOLIO/static/media/Calc.8f11c87f8634a34bb163.png",
     "static/media/StockProblem2.png": "/PORTFOLIO/static/media/StockProblem2.5ba48a0af8a8b9d0fc04.png",
     "static/media/NewToDo.png": "/PORTFOLIO/static/media/NewToDo.88393d1d0a12ea4e8ac2.png",
     "static/media/StockProblem1.png": "/PORTFOLIO/static/media/StockProblem1.c92bb950a974f411f023.png",
     "static/media/StockMap.png": "/PORTFOLIO/static/media/StockMap.e678ff983dc35e824f58.png",
+    "static/media/ToDoStructure.png": "/PORTFOLIO/static/media/ToDoStructure.660f1c400453500123f6.png",
+    "static/media/ToDoProblem2.png": "/PORTFOLIO/static/media/ToDoProblem2.706257a88fe68f8d1ee2.png",
+    "static/media/ToDoProblem3.png": "/PORTFOLIO/static/media/ToDoProblem3.683df597d9d0e52b72be.png",
     "static/media/StockStructure.png": "/PORTFOLIO/static/media/StockStructure.286079eb9f9a4bd78828.png",
     "static/media/keys.png": "/PORTFOLIO/static/media/keys.ce6f046d789c94d42c8b.png",
     "static/media/StockUseState.png": "/PORTFOLIO/static/media/StockUseState.b56a386c53ad840d286c.png",
@@ -25,10 +30,10 @@
     "static/media/oswald-vietnamese-400-normal.woff2": "/PORTFOLIO/static/media/oswald-vietnamese-400-normal.a3465efd849ea2f438ef.woff2",
     "index.html": "/PORTFOLIO/index.html",
     "main.10c45ff8.css.map": "/PORTFOLIO/static/css/main.10c45ff8.css.map",
-    "main.1700c339.js.map": "/PORTFOLIO/static/js/main.1700c339.js.map"
+    "main.ff01fed4.js.map": "/PORTFOLIO/static/js/main.ff01fed4.js.map"
   },
   "entrypoints": [
     "static/css/main.10c45ff8.css",
-    "static/js/main.1700c339.js"
+    "static/js/main.ff01fed4.js"
   ]
 }
