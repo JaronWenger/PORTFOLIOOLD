@@ -1,0 +1,13 @@
+/* Set the initial state of the toolbar to be transparent */
+.navbar-toolbar {
+    background-color: #121212;;
+    justify-content: flex-end;
+    transition: background-color 0.3s; /* Transition for smooth change */
+}
+
+/* Define the active state with a solid background color */
+.navbar-toolbar.active {
+    background-color:  rgba(0, 0, 0);; /* Change to desired transparency level */
+    justify-content: flex-end;
+    color: #8FC9F9;
+}
