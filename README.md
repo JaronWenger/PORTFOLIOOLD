@@ -1,8 +1,8 @@
 # PORTFOLIO
 
-Every developer needs a portfolio site.  This React.js site showcases my most impresive website with key skills such as Full Stack Development, connected to API's, and mastering user Authentication.
+Every developer needs a portfolio site. This React.js site showcases my most impressive websites, highlighting key skills such as Full Stack Development, connecting to APIs, and mastering user authentication.
 
-This is a React website utilizing Material Ui for design. Below is a link to this project:
+This is a React website that uses Material-UI for design. Below is a link to this project:
 
 https://jaronwenger.github.io/PORTFOLIO/#/
 
