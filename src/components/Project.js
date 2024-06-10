@@ -23,7 +23,7 @@ export const Project = ({ imgURL, URLText, URL, newRoute, newText, projectTitle 
         onMouseEnter={() => setIsHovered(true)} 
         onMouseLeave={() => setIsHovered(false)}
       >
-        <img
+        <img className="projectImage"
           src={imgURL}
           alt="Project Image" // Improve alt text for accessibility
           style={{

@@ -68,8 +68,8 @@ export default function Main() {
         animate={{ opacity: 1, x: 0 }} // Fade in and move to position
         transition={{ duration: 0.7 }} // Adjust as needed
         >
-            <h1 style={{  fontFamily: 'Oswald, sans-serif', fontSize: 170, margin: 0, textShadow: "0 0 1.5px white" }}>JARON WENGER</h1>
-            <h2 style={{  fontSize: 50, margin: 0, textShadow: "0 0 1px white" }}>SOFTWARE ENGINEER</h2>
+            <h1 className="Jaron" style={{  fontFamily: 'Oswald, sans-serif', margin: 0, textShadow: "0 0 1.5px white" }}>JARON WENGER</h1>
+            <h2 className="SoftwareEngineer" style={{ margin: 0, textShadow: "0 0 1px white" }}>SOFTWARE ENGINEER</h2>
         </motion.div>
         </div>
 
@@ -82,16 +82,16 @@ export default function Main() {
 
         <div style={{ marginTop: '10px', display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
         <Link to="Featured" spy={true} smooth={true} offset={-500} duration={600}>
-        <Button variant="text"><p style={{ textAlign: 'center', marginLeft: '30vw', marginRight: '30vw', marginTop: '0px', marginBottom: '0px', fontSize: 25, color: "white", textShadow: "0 0 2px white"}}>F E A T U R E D</p></Button>
+        <Button className="sectionButton" variant="text"><p style={{ textAlign: 'center', marginTop: '0px', marginBottom: '0px', fontSize: 25, color: "white", textShadow: "0 0 2px white"}}>F E A T U R E D</p></Button>
         </Link>
         </div>
 
-        <div style={{ marginTop: '30px', marginBottom: "200px", display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
+        <div className="featuredProjects" style={{ marginTop: '30px', marginBottom: "200px", display: 'flex', justifyContent: "center" }}>
           
           <Project projectTitle={"Full-Stack Task List Project"} imgURL={myImage7} URLText={"Live Site"} URL={"https://main.dmgpi4s3ff7zk.amplifyapp.com/"} newRoute={'/tasklist'} newText={"Documentation"}/>
-          <div style={{ width: '30px' }}></div>
+          <div className="projectMargin" style={{ width: '30px' }}></div>
           <Project projectTitle={"Authentication Project"} imgURL={myImage4} URLText={"Live Site"} URL={"https://jaronwenger.github.io/Authentication/"} newRoute={'/authentication'} newText={"Documentation"}/>
-          <div style={{ width: '30px' }}></div>
+          <div className="projectMargin" style={{ width: '30px' }}></div>
           <Project projectTitle={"Stock Price API Project"} imgURL={myImage8} URLText={"Live Site"} URL={"https://jaronwenger.github.io/Stock-API/"} newRoute={'/stockapi'} newText={"Documentation"}/>
         </div>
 
@@ -102,11 +102,11 @@ export default function Main() {
 
         <div style={{ marginTop: '40px', display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
         <Link to="Skills" spy={true} smooth={true} offset={getOffset()} duration={600}>
-        <Button variant="text"><p style={{ textAlign: 'center', marginLeft: '30vw', marginRight: '30vw', marginTop: '0px', marginBottom: '0px', fontSize: 25, color: "white", textShadow: "0 0 2px white"}}>S  K  I  L  L  S</p></Button>
+        <Button className="sectionButton"  variant="text"><p style={{ textAlign: 'center', marginTop: '0px', marginBottom: '0px', fontSize: 25, color: "white", textShadow: "0 0 2px white"}}>S  K  I  L  L  S</p></Button>
         </Link>
         </div>
 
-        <div style={{ marginTop: '0px', paddingLeft: '50px', display: 'flex', flexDirection: 'row', justifyContent: "center", marginBottom: "200px"  }}>
+        <div className="SkillsSection" style={{ marginTop: '0px', paddingLeft: '50px', display: 'flex', flexDirection: 'row', justifyContent: "center", marginBottom: "200px"  }}>
         <Skills categoryTitle=" LANGUAGES" skillsList={frontendSkills} />
         <div style={{ width: '200px' }}></div>
         <Skills categoryTitle=" TOOLS & LIBRARIES" skillsList={backendSkills} />
@@ -120,7 +120,7 @@ export default function Main() {
 
         <div style={{ marginTop: '40px', marginBottom: '40px', display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
         <Link to="Contact" spy={true} smooth={true} offset={getOffset()} duration={600} >
-        <Button variant="text"><p style={{ textAlign: 'center', marginLeft: '30vw', marginRight: '30vw', marginTop: '0px', marginBottom: '0px', fontSize: 25, color: "white", textShadow: "0 0 2px white"}}>C O N T A C T</p></Button>
+        <Button className="sectionButton"  variant="text"><p style={{ textAlign: 'center', marginTop: '0px', marginBottom: '0px', fontSize: 25, color: "white", textShadow: "0 0 2px white"}}>C O N T A C T</p></Button>
         </Link>
         </div>
 

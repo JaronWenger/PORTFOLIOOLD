@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect }  from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Button from '@mui/material/Button';
@@ -32,6 +32,9 @@ const darkTheme = createTheme({
 export default function Auth() {
   const navigate = useNavigate(); 
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleGitClick = () => {
     window.open('https://github.com/JaronWenger/Authentication', '_blank'); // Opens the link in a new tab

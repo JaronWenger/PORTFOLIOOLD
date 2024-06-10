@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect }  from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Button from '@mui/material/Button';
@@ -30,6 +30,10 @@ const darkTheme = createTheme({
 
 export default function StockApi() {
   const navigate = useNavigate(); 
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
 
   const handleGitClick = () => {

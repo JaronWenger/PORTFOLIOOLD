@@ -14,13 +14,13 @@ const Contact = () => {
         { icon: <PhoneIcon fontSize="large"/>, text: '717-723-5127' },
         { icon: <LocationOnIcon fontSize="large"/>, text: 'Lancaster, PA' },
         { icon: <LinkedInIcon fontSize="large"/>, text: 'linkedin.com/in/jaronwenger', link: 'https://www.linkedin.com/in/jaronwenger/' },
-        { icon: <GitHubIcon fontSize="large"/>, text: 'https://github.com/JaronWenger', link: 'https://github.com/JaronWenger' }
+        { icon: <GitHubIcon fontSize="large"/>, text: 'github.com/JaronWenger', link: 'https://github.com/JaronWenger' }
       ];
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center' }}>
+    <div className="ContactSection" style={{ display: 'flex', alignItems: 'center' }}>
       {/* Picture on the left */}
-      <img 
+      <img className="projectImage"
         src={myImage5} 
         alt="Contact" 
         style={{ 
@@ -36,7 +36,7 @@ const Contact = () => {
 
 
       {/* Contact heading and list on the right */}
-      <div>
+      <div className='contactItems'>
       <ul>
           {contactItems.map((contact, index) => (
             <li key={index} style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
