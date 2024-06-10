@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import Button from '@mui/material/Button';
 
-export const Project = ({ imgURL, URLText, URL, newRoute, newText }) => {
+export const Project = ({ imgURL, URLText, URL, newRoute, newText, projectTitle }) => {
   const [isHovered, setIsHovered] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
@@ -17,6 +17,7 @@ export const Project = ({ imgURL, URLText, URL, newRoute, newText }) => {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <h1>{projectTitle}</h1>
       <div
         onClick={handleImageClick} // Conditional handler
         onMouseEnter={() => setIsHovered(true)} 

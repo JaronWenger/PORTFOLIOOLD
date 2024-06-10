@@ -54,25 +54,25 @@ const Navbar = () => {
 
 
 <Link to="ProjectOverview" spy={true} smooth={true} offset={-1000} duration={600} >
-<Button sx={{ fontSize: 25 }} color="inherit" >Overview</Button>
+<Button sx={{ fontSize: 20 }} color="inherit" >Overview</Button>
 </Link>
 
 <Box sx={{ flexGrow: 1, minWidth: '.1%' }} />
 
 <Link to="Architecture" spy={true} smooth={true} offset={getOffset()} duration={600} >
-<Button sx={{ fontSize: 25 }} color="inherit">Architecture</Button>
+<Button sx={{ fontSize: 20 }} color="inherit">Architecture</Button>
 </Link>
 
 <Box sx={{ flexGrow: 1, minWidth: '.1%' }} />
 
 <Link to="ProblemSolving" spy={true} smooth={true} offset={getOffset()} duration={600} >
-<Button sx={{ fontSize: 25 }} color="inherit">Problems</Button>
+<Button sx={{ fontSize: 20 }} color="inherit">Problems</Button>
 </Link>
 
 <Box sx={{ flexGrow: 1, minWidth: '.1%' }} />
 
 <Link to="Conclusion" spy={true} smooth={true} offset={getOffset()} duration={600} >
-<Button sx={{ fontSize: 25 }} color="inherit">Conclusion</Button>
+<Button sx={{ fontSize: 20 }} color="inherit">Conclusion</Button>
 </Link>
 
 <Box sx={{ flexGrow: 1, minWidth: '.1%' }} />
@@ -80,7 +80,7 @@ const Navbar = () => {
 
 
         <Button 
-        sx={{ fontSize: 25 }} 
+        sx={{ fontSize: 20 }} 
         color="inherit"
         onClick={handleDocumentationClick} 
       >

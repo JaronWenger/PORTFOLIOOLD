@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Project } from './Project';
@@ -44,9 +44,11 @@ export default function Main() {
   const frontendSkills = ['HTML', 'CSS', 'JavaScript', 'Python', 'SQL'];
   const backendSkills = ['React.js', 'Node.js', 'Express', 'PostgreSQL', "AWS", "Git"];
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-
-
 
 
     <ThemeProvider theme={darkTheme}>
@@ -60,14 +62,14 @@ export default function Main() {
       <div style={{ marginTop: '20px', paddingLeft: '50px' }}>
 
 
-      <div style={{ marginBottom: "140px" }}>
+      <div style={{ marginBottom: "50px" }}>
         <motion.div
         initial={{ opacity: 0, x: 0 }} // Start with low opacity and off to the right
         animate={{ opacity: 1, x: 0 }} // Fade in and move to position
         transition={{ duration: 0.7 }} // Adjust as needed
         >
             <h1 style={{  fontFamily: 'Oswald, sans-serif', fontSize: 170, margin: 0, textShadow: "0 0 1.5px white" }}>JARON WENGER</h1>
-            <h2 style={{  fontSize: 50, margin: 0, textShadow: "0 0 1px white" }}>WEB DEVELOPER</h2>
+            <h2 style={{  fontSize: 50, margin: 0, textShadow: "0 0 1px white" }}>SOFTWARE ENGINEER</h2>
         </motion.div>
         </div>
 
@@ -78,19 +80,19 @@ export default function Main() {
 
         <section id="Featured">
 
-        <div style={{ marginTop: '40px', display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
+        <div style={{ marginTop: '10px', display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
         <Link to="Featured" spy={true} smooth={true} offset={-500} duration={600}>
         <Button variant="text"><p style={{ textAlign: 'center', marginLeft: '30vw', marginRight: '30vw', marginTop: '0px', marginBottom: '0px', fontSize: 25, color: "white", textShadow: "0 0 2px white"}}>F E A T U R E D</p></Button>
         </Link>
         </div>
 
-        <div style={{ marginTop: '40px', marginBottom: "200px", display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
+        <div style={{ marginTop: '30px', marginBottom: "200px", display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
           
-          <Project imgURL={myImage7} URLText={"Full Stack Task List Project Link"} URL={"https://main.dmgpi4s3ff7zk.amplifyapp.com/"} newRoute={'/tasklist'} newText={"Documentation"}/>
+          <Project projectTitle={"Full-Stack Task List Project"} imgURL={myImage7} URLText={"Live Site"} URL={"https://main.dmgpi4s3ff7zk.amplifyapp.com/"} newRoute={'/tasklist'} newText={"Documentation"}/>
           <div style={{ width: '30px' }}></div>
-          <Project imgURL={myImage4} URLText={"Authentication Project Link"} URL={"https://jaronwenger.github.io/Authentication/"} newRoute={'/authentication'} newText={"Documentation"}/>
+          <Project projectTitle={"Authentication Project"} imgURL={myImage4} URLText={"Live Site"} URL={"https://jaronwenger.github.io/Authentication/"} newRoute={'/authentication'} newText={"Documentation"}/>
           <div style={{ width: '30px' }}></div>
-          <Project imgURL={myImage8} URLText={"Stock Price API Project Link"} URL={"https://jaronwenger.github.io/Stock-API/"} newRoute={'/stockapi'} newText={"Documentation"}/>
+          <Project projectTitle={"Stock Price API Project"} imgURL={myImage8} URLText={"Live Site"} URL={"https://jaronwenger.github.io/Stock-API/"} newRoute={'/stockapi'} newText={"Documentation"}/>
         </div>
 
         </section>
@@ -151,7 +153,6 @@ export default function Main() {
 
 
     </ThemeProvider>
-
 
 
 

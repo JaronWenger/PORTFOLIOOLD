@@ -33,8 +33,12 @@ export default function Auth() {
   const navigate = useNavigate(); 
 
 
-  const handleHomeClick = () => {
+  const handleGitClick = () => {
     window.open('https://github.com/JaronWenger/Authentication', '_blank'); // Opens the link in a new tab
+  };
+
+  const handleSiteClick = () => {
+    window.open('https://jaronwenger.github.io/Authentication/', '_blank'); // Opens the link in a new tab
   };
 
   const handleDocumentationClick = () => {
@@ -413,10 +417,19 @@ When users confirmed their account with a code, the system used the email and pa
         <div style={{ marginTop: '40px', marginBottom: '0px', display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
         <Button 
         variant="outlined" 
-        onClick={handleHomeClick} 
+        onClick={handleGitClick} 
         style={{ marginTop: '10px' }}
       >
         GitHub Repository
+      </Button>
+      </div>
+      <div style={{ marginTop: '40px', marginBottom: '0px', display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
+      <Button 
+        variant="outlined" 
+        onClick={handleSiteClick} 
+        style={{ marginTop: '10px' }}
+      >
+        Live Site
       </Button>
       </div>
       <div style={{ marginTop: '10px', marginBottom: '100px', display: 'flex', flexDirection: 'row', justifyContent: "center" }}>

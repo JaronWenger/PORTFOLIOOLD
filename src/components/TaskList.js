@@ -12,7 +12,6 @@ import myImage8 from './NewToDo.png'
 import myImage9 from '../ToDoDraft.png'
 import myImage10 from '../ToDoStructure.png'
 import myImage11 from '../ToDoProblem1.png'
-import myImage12 from '../keys.png'
 import myImage13 from '../ToDoProblem2.png'
 import myImage14 from '../ToDoProblem3.png'
 import myImage15 from '../ToDoProblem4.png'
@@ -33,8 +32,12 @@ export default function StockApi() {
   const navigate = useNavigate(); 
 
 
-  const handleHomeClick = () => {
+  const handleGitClick = () => {
     window.open('https://github.com/JaronWenger/TASK-LIST', '_blank'); // Opens the link in a new tab
+  };
+
+  const handleSiteClick = () => {
+    window.open('https://main.dmgpi4s3ff7zk.amplifyapp.com/', '_blank'); // Opens the link in a new tab
   };
 
   const handleDocumentationClick = () => {
@@ -395,10 +398,19 @@ Another challenge was communicating with the database. To add tasks to DynamoDB,
         <div style={{ marginTop: '40px', marginBottom: '0px', display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
         <Button 
         variant="outlined" 
-        onClick={handleHomeClick} 
+        onClick={handleGitClick} 
         style={{ marginTop: '10px' }}
       >
         GitHub Repository
+      </Button>
+      </div>
+      <div style={{ marginTop: '40px', marginBottom: '0px', display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
+      <Button 
+        variant="outlined" 
+        onClick={handleSiteClick} 
+        style={{ marginTop: '10px' }}
+      >
+        Live Site
       </Button>
       </div>
       <div style={{ marginTop: '10px', marginBottom: '100px', display: 'flex', flexDirection: 'row', justifyContent: "center" }}>
