@@ -86,7 +86,7 @@ export default function StockApi() {
         </Link>
         </div>
 
-        <div
+        <div className='split'
           style={{
             display: 'flex', // Use Flexbox
             flexDirection: 'row', // Align content in a column
@@ -145,7 +145,7 @@ export default function StockApi() {
         </div>
 
 
-        <div
+        <div className='split'
           style={{
             display: 'flex', // Use Flexbox
             flexDirection: 'row', // Align content in a column
@@ -273,7 +273,7 @@ Another challenge was communicating with the database. To add tasks to DynamoDB,
 
 
           </div>
-          <div
+          <div className='split'
           style={{
             display: 'flex', // Use Flexbox
             flexDirection: 'row', // Align content in a column

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PORTFOLIO/static/css/main.dd3579a0.css",
-    "main.js": "/PORTFOLIO/static/js/main.75921364.js",
+    "main.css": "/PORTFOLIO/static/css/main.f14c6a32.css",
+    "main.js": "/PORTFOLIO/static/js/main.27f8f822.js",
     "static/media/AuthDraft.png": "/PORTFOLIO/static/media/AuthDraft.610c89eb0e1e4cbd1f41.png",
     "static/media/StockDraft.png": "/PORTFOLIO/static/media/StockDraft.0e791b9f894795186b3b.png",
     "static/media/Profile2.jpg": "/PORTFOLIO/static/media/Profile2.dfdbbd0dcdf1c4019540.jpg",
@@ -39,11 +39,11 @@
     "static/media/oswald-vietnamese-400-normal.woff": "/PORTFOLIO/static/media/oswald-vietnamese-400-normal.324e1553f920eead03fe.woff",
     "static/media/oswald-vietnamese-400-normal.woff2": "/PORTFOLIO/static/media/oswald-vietnamese-400-normal.a3465efd849ea2f438ef.woff2",
     "index.html": "/PORTFOLIO/index.html",
-    "main.dd3579a0.css.map": "/PORTFOLIO/static/css/main.dd3579a0.css.map",
-    "main.75921364.js.map": "/PORTFOLIO/static/js/main.75921364.js.map"
+    "main.f14c6a32.css.map": "/PORTFOLIO/static/css/main.f14c6a32.css.map",
+    "main.27f8f822.js.map": "/PORTFOLIO/static/js/main.27f8f822.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd3579a0.css",
-    "static/js/main.75921364.js"
+    "static/css/main.f14c6a32.css",
+    "static/js/main.27f8f822.js"
   ]
 }

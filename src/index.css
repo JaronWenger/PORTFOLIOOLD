@@ -36,6 +36,13 @@ code {
 }
 
 @media (max-width: 640px) {
+  .split{
+    flex-direction: column !important;
+  }
+  .desktop-only {
+    display: none;
+  }
+
 .Jaron{
   font-size: 50px;
   margin-top: 80px !important;

@@ -86,7 +86,7 @@ export default function Auth() {
         </Link>
         </div>
 
-        <div
+        <div className='split'
           style={{
             display: 'flex', // Use Flexbox
             flexDirection: 'row', // Align content in a column
@@ -145,7 +145,7 @@ export default function Auth() {
         </div>
 
 
-        <div
+        <div className='split'
           style={{
             display: 'flex', // Use Flexbox
             flexDirection: 'row', // Align content in a column

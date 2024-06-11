@@ -54,25 +54,33 @@ const Navbar = () => {
 
 
 <Link to="ProjectOverview" spy={true} smooth={true} offset={-1000} duration={600} >
-<Button sx={{ fontSize: 20 }} color="inherit" >Overview</Button>
+  <div className='desktop-only'>
+<Button  sx={{ fontSize: 20 }} color="inherit" >Overview</Button>
+</div>
 </Link>
 
 <Box sx={{ flexGrow: 1, minWidth: '.1%' }} />
 
 <Link to="Architecture" spy={true} smooth={true} offset={getOffset()} duration={600} >
+<div className='desktop-only'>
 <Button sx={{ fontSize: 20 }} color="inherit">Architecture</Button>
+</div>
 </Link>
 
 <Box sx={{ flexGrow: 1, minWidth: '.1%' }} />
 
 <Link to="ProblemSolving" spy={true} smooth={true} offset={getOffset()} duration={600} >
+<div className='desktop-only'>
 <Button sx={{ fontSize: 20 }} color="inherit">Problems</Button>
+</div>
 </Link>
 
 <Box sx={{ flexGrow: 1, minWidth: '.1%' }} />
 
 <Link to="Conclusion" spy={true} smooth={true} offset={getOffset()} duration={600} >
+<div className='desktop-only'>
 <Button sx={{ fontSize: 20 }} color="inherit">Conclusion</Button>
+</div>
 </Link>
 
 <Box sx={{ flexGrow: 1, minWidth: '.1%' }} />

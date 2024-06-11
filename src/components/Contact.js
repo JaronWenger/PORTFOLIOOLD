@@ -42,11 +42,11 @@ const Contact = () => {
             <li key={index} style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
               <div style={{ marginRight: '10px' }}>{contact.icon}</div>
               {contact.link ? (
-                <Button variant="outlined" component="a" href={contact.link} target="_blank" rel="noopener noreferrer" style={{ fontSize: '1.2em' }}>
+                <Button variant="outlined" component="a" href={contact.link} target="_blank" rel="noopener noreferrer" style={{ fontSize: '1em' }}>
                   {contact.text}
                 </Button>
               ) : (
-                <Button variant="outlined" style={{ fontSize: '1.2em' }}>
+                <Button variant="outlined" style={{ fontSize: '1em' }}>
                   {contact.text}
                 </Button>
               )}

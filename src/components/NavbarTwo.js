@@ -45,19 +45,19 @@ const Navbar = () => {
         <Box sx={{ flexGrow: 1, minWidth: '70%' }} />
 
         <Link to="Featured" spy={true} smooth={true} offset={-500} duration={600}>
-        <Button sx={{ fontSize: 25 }} color="inherit" >Featured</Button> 
+        <Button sx={{ fontSize: 20 }} color="inherit" >Featured</Button> 
         </Link>
 
         <Box sx={{ flexGrow: 1, minWidth: '.1%' }} />
 
         <Link to="Skills" spy={true} smooth={true} offset={getOffset()} duration={600} >
-        <Button sx={{ fontSize: 25 }} color="inherit" >Skills</Button>
+        <Button sx={{ fontSize: 20 }} color="inherit" >Skills</Button>
         </Link>
 
         <Box sx={{ flexGrow: 1, minWidth: '.1%' }} />
 
         <Link to="Contact" spy={true} smooth={true} offset={getOffset()} duration={600} >
-        <Button sx={{ fontSize: 25 }} color="inherit">Contact</Button>
+        <Button sx={{ fontSize: 20 }} color="inherit">Contact</Button>
         </Link>
 
         <Box sx={{ flexGrow: 1, minWidth: '5%' }} />
