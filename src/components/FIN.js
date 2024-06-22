@@ -181,7 +181,7 @@ export default function Fin() {
           >
 
             <p style={{ fontSize: '24px', textIndent: '4em' }}>
-            The backend architecture consists of Node.js and Express, handling server-side logic and API requests. SQLite is used to store user data and manage user sessions. Cookie and session-based authentication are implemented for information security. The application is containerized using Docker and managed with Docker-Compose, utilizing Docker volumes for persistent data storage. Nginx is configured as a reverse proxy to handle incoming traffic, and the entire setup is secured with SSL for encrypted communication. The combination of these technologies ensures a robust, scalable, and secure environment for the application. Below is a code snipit of how a user authentication is handled from React.
+            The backend architecture consists of Node.js and Express, handling server-side logic and API requests. SQLite is used to store user data and manage user sessions. Cookie and session-based authentication are implemented for information security. The application is containerized using Docker and managed with Docker-Compose, utilizing Docker volumes for persistent data storage. Nginx is configured as a reverse proxy to handle incoming traffic, and the entire setup is secured with SSL for encrypted communication. The combination of these technologies ensures a robust, scalable, and secure environment for the application. Below is a code snipit of how user authentication is handled from React.
             </p>
 
 
