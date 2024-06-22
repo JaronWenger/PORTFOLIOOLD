@@ -8,7 +8,7 @@ import Contact from './Contact';
 
 import { Link } from 'react-scroll';
 
-import myImage4 from './Calc.png'
+import myImage4 from './Calc2.png'
 import myImage7 from './NewToDo.png'
 import myImage8 from './Weather.png'
 
@@ -88,9 +88,9 @@ export default function Main() {
 
         <div className="featuredProjects" style={{ marginTop: '30px', marginBottom: "200px", display: 'flex', justifyContent: "center" }}>
           
-          <Project projectTitle={"Full-Stack Task List Project"} imgURL={myImage7} URLText={"Live Site"} URL={"https://main.dmgpi4s3ff7zk.amplifyapp.com/"} newRoute={'/tasklist'} newText={"Documentation"}/>
+          <Project projectTitle={"Full-Stack Financial Tracker"} imgURL={myImage4} URLText={"Live Site"} URL={"https://thegoldenmetrics.com/"} newRoute={'/financialtracker'} newText={"Documentation"}/>
           <div className="projectMargin" style={{ width: '30px' }}></div>
-          <Project projectTitle={"Authentication Project"} imgURL={myImage4} URLText={"Live Site"} URL={"https://jaronwenger.github.io/Authentication/"} newRoute={'/authentication'} newText={"Documentation"}/>
+          <Project projectTitle={"AWS Full-Stack Task List"} imgURL={myImage7} URLText={"Live Site"} URL={"https://main.dmgpi4s3ff7zk.amplifyapp.com/"} newRoute={'/tasklist'} newText={"Documentation"}/>
           <div className="projectMargin" style={{ width: '30px' }}></div>
           <Project projectTitle={"Stock Price API Project"} imgURL={myImage8} URLText={"Live Site"} URL={"https://jaronwenger.github.io/Stock-API/"} newRoute={'/stockapi'} newText={"Documentation"}/>
         </div>
