@@ -1,23 +1,29 @@
 {
   "files": {
     "main.css": "/PORTFOLIO/static/css/main.f14c6a32.css",
-    "main.js": "/PORTFOLIO/static/js/main.27f8f822.js",
+    "main.js": "/PORTFOLIO/static/js/main.52132ff8.js",
+    "static/media/Fin.png": "/PORTFOLIO/static/media/Fin.4b7ecff7513a7670e3cb.png",
+    "static/media/Calc2.png": "/PORTFOLIO/static/media/Calc2.70e9d2c7d9faee4c44ee.png",
     "static/media/AuthDraft.png": "/PORTFOLIO/static/media/AuthDraft.610c89eb0e1e4cbd1f41.png",
     "static/media/StockDraft.png": "/PORTFOLIO/static/media/StockDraft.0e791b9f894795186b3b.png",
     "static/media/Profile2.jpg": "/PORTFOLIO/static/media/Profile2.dfdbbd0dcdf1c4019540.jpg",
     "static/media/ToDoDraft.png": "/PORTFOLIO/static/media/ToDoDraft.63211b383179ebf91b4d.png",
     "static/media/Auth.png": "/PORTFOLIO/static/media/Auth.af06dc0a0b3bf95449ae.png",
+    "static/media/Fin1.png": "/PORTFOLIO/static/media/Fin1.d9b9bab014d8b13614f2.png",
     "static/media/ToDoProblem1.png": "/PORTFOLIO/static/media/ToDoProblem1.d8bc337c0f6ee48ef58b.png",
     "static/media/Weather.png": "/PORTFOLIO/static/media/Weather.1e5b720680287b38a697.png",
     "static/media/AuthProblem1.png": "/PORTFOLIO/static/media/AuthProblem1.c859b7f3039b7b1f5f2b.png",
     "static/media/AuthProblem3.png": "/PORTFOLIO/static/media/AuthProblem3.8960f7ec0197c6c149be.png",
     "static/media/StockProblem2.png": "/PORTFOLIO/static/media/StockProblem2.5ba48a0af8a8b9d0fc04.png",
+    "static/media/FinProblem4.png": "/PORTFOLIO/static/media/FinProblem4.318e6da921ed69103366.png",
     "static/media/NewToDo.png": "/PORTFOLIO/static/media/NewToDo.88393d1d0a12ea4e8ac2.png",
     "static/media/AuthProblem4.png": "/PORTFOLIO/static/media/AuthProblem4.c56363a1ae73cf3963c7.png",
+    "static/media/FinProblem3.png": "/PORTFOLIO/static/media/FinProblem3.e8e72863ec4b0857d565.png",
     "static/media/StockProblem1.png": "/PORTFOLIO/static/media/StockProblem1.c92bb950a974f411f023.png",
-    "static/media/Calc.png": "/PORTFOLIO/static/media/Calc.6278938d0d35bb61acef.png",
+    "static/media/FinArch.png": "/PORTFOLIO/static/media/FinArch.0f18ec6733880239b866.png",
     "static/media/StockMap.png": "/PORTFOLIO/static/media/StockMap.e678ff983dc35e824f58.png",
     "static/media/AuthProblem2.png": "/PORTFOLIO/static/media/AuthProblem2.ac4ce14a13fe6177d6ee.png",
+    "static/media/FinProblem1.png": "/PORTFOLIO/static/media/FinProblem1.6f81fc5b3723bda8c3bb.png",
     "static/media/ToDoStructure.png": "/PORTFOLIO/static/media/ToDoStructure.660f1c400453500123f6.png",
     "static/media/ToDoProblem2.png": "/PORTFOLIO/static/media/ToDoProblem2.706257a88fe68f8d1ee2.png",
     "static/media/ToDoProblem3.png": "/PORTFOLIO/static/media/ToDoProblem3.683df597d9d0e52b72be.png",
@@ -40,10 +46,10 @@
     "static/media/oswald-vietnamese-400-normal.woff2": "/PORTFOLIO/static/media/oswald-vietnamese-400-normal.a3465efd849ea2f438ef.woff2",
     "index.html": "/PORTFOLIO/index.html",
     "main.f14c6a32.css.map": "/PORTFOLIO/static/css/main.f14c6a32.css.map",
-    "main.27f8f822.js.map": "/PORTFOLIO/static/js/main.27f8f822.js.map"
+    "main.52132ff8.js.map": "/PORTFOLIO/static/js/main.52132ff8.js.map"
   },
   "entrypoints": [
     "static/css/main.f14c6a32.css",
-    "static/js/main.27f8f822.js"
+    "static/js/main.52132ff8.js"
   ]
 }
