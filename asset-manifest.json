@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PORTFOLIO/static/css/main.25c1aec2.css",
-    "main.js": "/PORTFOLIO/static/js/main.857ff541.js",
+    "main.js": "/PORTFOLIO/static/js/main.6f5771ae.js",
     "static/media/Profile2.jpg": "/PORTFOLIO/static/media/Profile2.33602d00c8ee047aabc6.jpg",
     "static/media/Fin.png": "/PORTFOLIO/static/media/Fin.4b7ecff7513a7670e3cb.png",
     "static/media/Calc2.png": "/PORTFOLIO/static/media/Calc2.70e9d2c7d9faee4c44ee.png",
@@ -49,10 +49,10 @@
     "static/media/oswald-vietnamese-400-normal.woff2": "/PORTFOLIO/static/media/oswald-vietnamese-400-normal.a3465efd849ea2f438ef.woff2",
     "index.html": "/PORTFOLIO/index.html",
     "main.25c1aec2.css.map": "/PORTFOLIO/static/css/main.25c1aec2.css.map",
-    "main.857ff541.js.map": "/PORTFOLIO/static/js/main.857ff541.js.map"
+    "main.6f5771ae.js.map": "/PORTFOLIO/static/js/main.6f5771ae.js.map"
   },
   "entrypoints": [
     "static/css/main.25c1aec2.css",
-    "static/js/main.857ff541.js"
+    "static/js/main.6f5771ae.js"
   ]
 }
