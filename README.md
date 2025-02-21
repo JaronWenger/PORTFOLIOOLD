@@ -6,6 +6,7 @@ This is a React website that uses Material-UI for design. Below is a link to thi
 
 https://jaronwenger.github.io/PORTFOLIOOLD/
 
-Check out my new portfolio at https://www.jaronwenger.com
+
+Check out my new portfolio at https://www.jaronwenger.com 🦦
 
 <img width="2044" alt="Screenshot 2024-05-05 at 3 22 58 PM" src="https://github.com/JaronWenger/Stock-API/assets/147181586/04b380bb-c81d-4cef-9f26-50d430405f53">
